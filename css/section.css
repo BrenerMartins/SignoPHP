@@ -1,0 +1,27 @@
+.sign {
+    width: 70%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 2em;
+    padding: 2em;
+    margin: 2em;
+
+    text-align: center;
+
+    border: 1px solid #202020;
+    border-radius: 10px;
+
+    background-color: rgba(12, 11, 11, 0.747);
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.description {
+    font-size: 1.2rem;
+}
