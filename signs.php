@@ -31,7 +31,6 @@
                         <p class='description'>$signo->descricao </p>
                     </section>
                 ";
-                break;
             } elseif (($day >= 20 && $month == 4 || $day <= 20 && $month == 5) && $sign == 'Touro') {
                 echo "
                     <section class='sign'>
@@ -39,7 +38,7 @@
                         <p class='description'>$signo->descricao </p>
                     </section>
                 ";
-                break;
+               
             } elseif (($day >= 21 && $month == 5 || $day <= 21 && $month == 6) && $sign == 'Gêmeos') {
                 echo "
                     <section class='sign'>
@@ -55,7 +54,7 @@
                         <p class='description'>$signo->descricao </p>
                     </section>
                 ";
-                break;
+               
             } elseif (($day >= 23 && $month == 7 || $day <= 22 && $month == 8) && $sign == 'Leão') {
                 echo "
                     <section class='sign'>
@@ -63,7 +62,7 @@
                         <p class='description'>$signo->descricao </p>
                     </section>
                 ";
-                break;
+               
             } elseif (($day >= 23 && $month == 8 || $day <= 22 && $month == 9) && $sign == 'Virgem') {
                 echo "
                     <section class='sign'>
@@ -71,7 +70,7 @@
                         <p class='description'>$signo->descricao </p>
                     </section>
                 ";
-                break;
+               
             } elseif (($day >= 23 && $month == 9 || $day <= 22 && $month == 10) && $sign == 'Libra') {
                 echo "
                     <section class='sign'>
@@ -79,7 +78,7 @@
                         <p class='description'>$signo->descricao </p>
                     </section>
                 ";
-                break;
+               
             } elseif (($day >= 23 && $month == 10 || $day <= 21 && $month == 11) && $sign == 'Escorpião') {
                 echo "
                     <section class='sign'>
@@ -87,7 +86,7 @@
                         <p class='description'>$signo->descricao </p>
                     </section>
                 ";
-                break;
+              
             } elseif (($day >= 22 && $month == 11 || $day <= 21 && $month == 12) && $sign == 'Sagitário') {
                 echo "
                     <section class='sign'>
@@ -95,7 +94,7 @@
                         <p class='description'>$signo->descricao </p>
                     </section>
                 ";
-                break;
+               
             } elseif (($day >= 22 && $month == 12 || $day <= 19 && $month == 1) && $sign == 'Capricórnio') {
                 echo "
                     <section class='sign'>
@@ -103,7 +102,7 @@
                         <p class='description'>$signo->descricao </p>
                     </section>
                 ";
-                break;
+              
             } elseif (($day >= 20 && $month == 1 || $day <= 18 && $month == 2) && $sign == 'Aquário') {
                 echo "
                     <section class='sign'>
@@ -111,7 +110,7 @@
                         <p class='description'>$signo->descricao </p>
                     </section>
                 ";
-                break;
+              
             } elseif (($day >= 19 && $month == 2 || $day <= 20 && $month == 3) && $sign == 'Peixes') {
                 echo "
                     <section class='sign'>
@@ -119,15 +118,6 @@
                         <p class='description'>$signo->descricao </p>
                     </section>
                 ";
-                break;
-            } else {
-                echo "
-                    <section class='sign'>
-                        $birthday não encontrado! <br>
-                        Você é um alienigena 👽  <br>
-                    </section>
-                ";
-                break;
             }
        }
    ?>
